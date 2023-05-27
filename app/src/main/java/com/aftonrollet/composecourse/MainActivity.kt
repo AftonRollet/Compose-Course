@@ -3,13 +3,13 @@ package com.aftonrollet.composecourse
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.aftonrollet.taskmanager.Greeting
+import com.aftonrollet.quadrants.Quadrant
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Greeting()
+            Quadrant()
         }
     }
 }
